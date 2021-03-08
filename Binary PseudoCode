@@ -1,0 +1,26 @@
+
+//==== Binary Search =====
+VALUES = [11,12,15,16,112,118,123,145] //sorted array elements
+TARGET = 15 //search value
+MIN = 0
+HIGH = 7 // Number of array elements - l FOUND = false
+ANSWER = 0
+MID =0
+loop while FOUND = true AND MIN <= HIGH MID = ((MIN + HIGH) div 2)
+if VALUES[MID] = TARGET then
+FOUND = true
+ANSWER = MID
+else if TARGET > VALUES [MID] then
+MIN = MID + 1
+else
+HIGH MID 1
+end if
+end while
+if FOUND = true then
+output TARGET , else
+output TARGET and if
+=,—
+Output: 15 FOUND AT ARRAY INDEX 2
+"FOUND AT ARRAY INDEX" , " was not found"
+,
+ANSWER
